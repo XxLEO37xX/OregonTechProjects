@@ -1,6 +1,8 @@
 ==========================================================================================
 *
 * These files were developed in a Linux environment on Oregon Tech's Loki server.
+* Author: Leonardo Espinosa
+* CST240 - Linux Programming
 *
 ==========================================================================================
 
