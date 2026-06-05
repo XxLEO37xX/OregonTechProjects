@@ -1,30 +1,121 @@
-==========================================================================================
-*
-* These files were developed in a Linux environment on Oregon Tech's Loki server.
-* Author: Leonardp Espinosa
-* CST240 - Linux Programming
-*
-==========================================================================================
+# Python Command Shell
 
-* Files can be made executable by entering the following command:
+## Author
 
-chmod +x myfile.py
+Leonardo Espinosa
 
-* Files can then be executed by entereing the following command:
+## Course
 
-python3 myfile.py
+CST 240 - Linux Programming
 
+## Description
 
-* Make sure that all the .py files are executable, but the file that will run the shell itself is my_shell.py
-* If you successfully run it, you will be met with the following:
+This project is a custom command-line shell written in Python and developed on Oregon Tech's Loki Linux server.
 
+The shell accepts user commands, processes input, and executes supported operations through a simple interactive interface. The project demonstrates Linux programming concepts, file system interaction, process execution, input parsing, and control flow.
+
+---
+
+## Features
+
+* List files in the current working directory
+* List files in a specified directory
+* Execute selected programs
+* Interactive command prompt
+* Input validation and error handling
+* Exit command for terminating the shell
+
+---
+
+## Supported Commands
+
+### List Current Directory
+
+```text
+dir
+```
+
+Displays files in the current working directory as a numbered list.
+
+### List a Specific Directory
+
+```text
+dir <directory_name>
+```
+
+Displays files contained within the specified directory.
+
+### Execute a Program
+
+```text
+run <number>
+```
+
+Executes the selected file from the displayed directory listing.
+
+If the selected file is not executable, an error message is displayed.
+
+### Exit the Shell
+
+```text
+exit
+```
+
+Terminates the shell and ends the program.
+
+---
+
+## Requirements
+
+* Python 3
+* Linux environment (developed and tested on Oregon Tech's Loki server)
+
+---
+
+## Running the Program
+
+Make the Python files executable:
+
+```bash
+chmod +x *.py
+```
+
+Run the shell:
+
+```bash
+python3 my_shell.py
+```
+
+or
+
+```bash
+./my_shell.py
+```
+
+If successful, the program will display:
+
+```text
 Enter command <dir>, <dir directory_name>, <run number>, or <exit>:
+```
 
-* The program loop will respond to the following commands:
+---
 
-    <dir>                   - lists the files of the working directory in a numbered list
-    <dir directory_name>    - lists the files of the specified directory in a numbered list
-    <run number>            - runs the specified file (if it is not an executable, you will get an error)
-    <exit>                  - exits the shell and ends the program
+## Files
 
+* `my_shell.py` - Main shell application
+* `exec1.py` - Test executable
+* `exec2.py` - Test executable
+* `test_dir/` - Directory used for testing shell functionality
 
+---
+
+## Concepts Demonstrated
+
+* Python Programming
+* Linux Programming
+* Command-Line Interfaces (CLI)
+* File System Navigation
+* Process Execution
+* Input Parsing
+* Error Handling
+* Interactive Program Design
