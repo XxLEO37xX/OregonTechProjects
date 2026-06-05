@@ -1,10 +1,9 @@
-# CST238 Assignment 1 - Paint Clone
+# CST238 Assignment 1 - MS Paint Clone
 
 ## Description
 
 A simple C# console application that recreates some basic functionality of Microsoft Paint using text-based graphics.
-
-Users can draw on a console-based canvas using the mouse to make some simple shapes with a wide variety of colors.
+Users can draw on a console-based canvas using the trackpad/mouse and create simple shapes and designs with a wide variety of colors.
 
 ## Features
 
@@ -42,10 +41,9 @@ CST238Assign1/
 │   └── ...
 ```
 
-## Author 
+## Author
 
 Leonardo Espinosa
 
-## OIT Course
-
+## Course Information
 CST238 - GUI Programming
